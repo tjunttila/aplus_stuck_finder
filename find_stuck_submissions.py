@@ -79,7 +79,7 @@ def main():
     argp = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         description=description)
-    argp.add_argument('--config', default='config.yaml',
+    argp.add_argument('--config', default='find_stuck_submissions.yml',
                       metavar='C',
                       help='The config YAML file with access token and course id')
     argp.add_argument('--urls-file', default='stuck_submissions.txt',
